@@ -1,0 +1,214 @@
+html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #333333;
+		font-family: 'Varela', sans-serif;
+		font-size: 11pt;
+		font-weight: 300;
+		color: #656565;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 700;
+		color: #2B3F48;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.actions
+	{
+		text-align: center;
+	}
+		
+		ul.actions li
+		{
+		}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #0000FF;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		
+	}
+	
+
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.staff
+	{
+		margin-bottom: 3em;
+	}
+
+	ul.staff li
+	{
+		display: inline-block;
+	}
+	
+	ul.staff li img
+	{
+		width: 80%;
+		border-radius: 50%;
+	}
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		text-transform: uppercase;
+		font-size: 2.7em;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.7em;
+		color: #6F6F6F;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		background: white;
+	}
+
+	#header
+	{
+		position: relative;
+		padding: 3em 0em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: absolute;
+		top: 1em;
+		left: 0;
+	}
+	
+	#logo h1
+	{
+		color: #FFF;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #FFF;
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		top: 2em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: dimgray;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		color: lightskyblue;
+	}
+	
+	#menu .current_page_item a
+	{
+		background: #4B4848;
+		color: #FFF;
+	}
+	
+	#menu .icon
+	{
+	}
+
+#shop {
+    background-color: gray;
+}
+
+.products {
+    display: inline-flex;
+    width: 80%;
+    padding: 10px;
+    margin: 130px;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin-left: 20px;
+}
